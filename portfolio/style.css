@@ -1,0 +1,255 @@
+html,
+body {
+    background: #ffffff;
+    color: #878787;
+    font-family: 'Lato', 'Arial', 'sans-serif';
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+header {
+    height: 100vh;
+    background-image: url(cover4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main-nav a {
+    width: 100%;
+    margin: 0px auto;
+    padding: 20px;
+    text-align: center;
+    color: gray;
+    font-size: 200%;
+    font-weight: 100%;
+    display: inline-block;
+    letter-spacing: 6px;
+}
+
+.wrapper1 {
+    color: gray;
+    width: 100%;
+    text-align: center;
+    font-size: 120%;
+}
+
+.About1 {
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    color: gray
+}
+
+.Contact1 {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: gray
+}
+
+h1 {
+    padding-top: 5%;
+    padding-left: 10%;
+    font-size: 150%;
+    font-weight: 100%;
+    line-height: 1.2;
+}
+
+.valuesBox {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    padding-bottom: 60px;
+}
+
+.wrapper-1-4 {
+    width: 20%;
+    position: relative;
+}
+
+.about h2 {
+    color: gray;
+    font-size: 110%;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 1.2;
+    margin-bottom: 100px;
+    padding: 5%;
+}
+
+section {
+    display: block;
+}
+
+h2 {
+    font-size: 120%;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 1.2;
+    margin-bottom: 100px;
+}
+
+h4 {
+    margin: 80px 0px 20px 0px;
+    text-align: center;
+    font-size: 130%;
+    color: #e67e22;
+}
+
+p {
+    line-height: 1.3;
+    font-weight: 300;
+    word-spacing: 2px;
+    font-size: 95%;
+    text-align: justify;
+    letter-spacing: 1.1px;
+}
+
+.background {
+    background-color: #f2f2f2;
+}
+
+#triangle {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 100px solid #222222;
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.big-line {
+    background-color: #222222;
+    padding: 50px;
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.bio h2 {
+    margin-bottom: 0px;
+}
+
+.bio {
+    padding: 0px;
+    padding-bottom: 10px;
+    background-color: rgb(218, 216, 206);
+}
+
+.bio img {
+    width: 30%;
+    margin: -51px 10% 0px 0px;
+    float: left;
+    overflow: clip;
+    overflow-clip-margin: content-box;
+}
+
+.bio h3 span {
+    display: block;
+    font-size: 60%;
+    margin: 10px 0 50px 0;
+}
+
+.bio h3 {
+    font-size: 200%;
+    color: #e67e22;
+    padding-top: 58px;
+}
+
+.bio p {
+    margin-bottom: 30px;
+    margin-right: 10px;
+}
+
+.btn-full {
+    background: none;
+    padding: 1%;
+    padding-top: 2%;
+    padding-bottom: 0%;
+    border-radius: none;
+    color: black;
+}
+
+.bio i {
+    font-size: 200%;
+    padding-top: 9px;
+}
+
+.projects {
+    padding-top: 80px;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.projects h2 {
+    font-size: 120%;
+    margin-bottom: 60px;
+}
+
+.project-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #a5c892;
+}
+
+.zoomable {
+    transition: transform 0.3s ease;
+}
+
+.zoomable:hover {
+    transform: scale(1.2);
+}
+
+.project-wrapper {
+    width: 25%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px 10px 0px 0px;
+}
+
+.project-wrapper img {
+    width: 75%;
+    transition: 0.2s;
+}
+
+.project-wrapper p {
+    text-align: center;
+    color: #333333;
+}
+
+.project-wrapper h4 {
+    margin: 80px 0px 20px 0px;
+    text-align: center;
+    font-size: 130%;
+    color: yellow;
+}
+
+footer {
+    padding: 70px;
+    background-color: #333333;
+}
+
+.row1 {
+    position: relative;
+    display: flex;
+}
+
+.row1 p {
+    color: #e67e22;
+    position: absolute;
+    display: flex;
+    top: 20px;
+    right: 20px;
+}
